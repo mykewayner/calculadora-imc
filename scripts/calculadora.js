@@ -10,10 +10,9 @@ export default function calcular(){
         let calculo = peso / (altura * altura)
 
         let classificacao = ""
-        if( calculo < 18,5){
+        if(calculo < 18,5){
             classificacao = "Abaixo do Peso"
-        }
-        else if(calculo < 24,9){
+        }else if(calculo < 24,9){
             classificacao = "Peso Normal"
         }else if(calculo < 29,9){
             classificacao = "Sobrepeso"
@@ -32,7 +31,7 @@ export default function calcular(){
         
         
         
-        valorFinal.innerHTML = `IMC: ${calculo.toFixed(0)} (${classificacao})`
+        valorFinal.innerHTML = `IMC: ${calculo.toFixed(2)} (${classificacao})`
 
     }
 
