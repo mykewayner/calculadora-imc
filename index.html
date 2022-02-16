@@ -20,7 +20,8 @@
                 <span id="peso-value">1</span>
             </div>
             
-            <input id="peso-input" type="range" name="rangeInput" min="0" max="100">
+            <input id="peso-input" type="range" name="rangeInput" min="0" max="100" oninput="this.nextElementSibling.value = this.value">
+            <output>24</output>
             
             
         </div>
