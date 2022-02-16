@@ -10,15 +10,15 @@ export default function calcular(){
         let calculo = peso / (altura * altura)
 
         let classificacao = ""
-        if(calculo < 18,5){
+        if(calculo < 18.5){
             classificacao = "Abaixo do Peso"
-        }else if(calculo < 24,9){
+        }else if(calculo < 24.9){
             classificacao = "Peso Normal"
-        }else if(calculo < 29,9){
+        }else if(calculo < 29.9){
             classificacao = "Sobrepeso"
-        }else if(calculo < 34,9){
+        }else if(calculo < 34.9){
             classificacao = "Obesidade Grau I"
-        }else if(calculo < 39,9){
+        }else if(calculo < 39.9){
             classificacao = "Obesidade Grau II"
         }else{
             classificacao = "Obesidade Mórbida"
